@@ -19,4 +19,6 @@ __all__ = [
     "ExecutionTrace",
     "StepResult",
     "Tracer",
+    "as_step",
 ]
+from agentloom.integrations.langchain import as_step
